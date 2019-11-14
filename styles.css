@@ -1,5 +1,15 @@
 /* Add application styles & imports to this file! */
-#session-navbar {
-  position: absolute;
+div.fixed {
+  width: 100%;
+  position: fixed;
+}
+div.fixed.bottom {
   bottom: 0;
+}
+div.fixed.top {
+  top: 0;
+}
+
+#session-navbar {
+  border-radius: 0;
 }
