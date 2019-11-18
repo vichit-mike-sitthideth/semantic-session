@@ -1,4 +1,8 @@
 /* Add application styles & imports to this file! */
+body {
+  background: #000000;
+}
+
 div.fixed {
   width: 100%;
   position: fixed;
@@ -12,4 +16,5 @@ div.fixed.top {
 
 #session-navbar {
   border-radius: 0;
+  border-top: 2px solid #ffffff;
 }
